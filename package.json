@@ -1,0 +1,12 @@
+{
+    "name": "object-dots",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "tap __test__/test.js"
+    },
+    "devDependencies": {
+        "tap": "^11.0.1"
+    }
+}
