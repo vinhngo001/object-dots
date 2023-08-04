@@ -45,14 +45,14 @@ t.test('test path', t => {
 
 t.test('test update', t => {
     t.test('shoud update `bar`', t => {
-        t.ok(dots.update(prototype, '.foo.bar', 'new bar'))
-        t.equal(prototype.foo.bar, 'new bar')
-        t.end()
+        t.ok(dots.update(prototype, '.foo.bar', 'new bar'));
+        t.equal(prototype.foo.bar, 'new bar');
+        t.end();
     })
 
     t.test('should update `xyzzy`', t => {
-        t.ok(dots.update(prototype, '.foo.qux.corge.xyzzy', 'new xyzzy'))
-        t.equal(prototype.foo.qux.corge.xyzzy, 'new xyzzy')
+        t.ok(dots.update(prototype, '.foo.qux.corge.xyzzy', 'new xyzzy'));
+        t.equal(prototype.foo.qux.corge.xyzzy, 'new xyzzy');
         t.end();
     })
 
@@ -62,5 +62,5 @@ t.test('test update', t => {
         t.end();
     })
 
-    t.end()
+    t.end();
 })  
