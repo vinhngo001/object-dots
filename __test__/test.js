@@ -38,7 +38,7 @@ t.test('test path', t => {
         const path = dots.path(prototype, 'cool');
         t.equal(path, '');
         t.end();
-    })
+    });
 
     t.end();
 });
